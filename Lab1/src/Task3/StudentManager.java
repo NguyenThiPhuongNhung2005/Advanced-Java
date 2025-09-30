@@ -43,13 +43,12 @@ public class StudentManager {
         Scanner sc = new Scanner(System.in);
 
         // 1. Add students
-        students.add(new Student("S001", "Nguyen Van A", 8.5));
-        students.add(new Student("S002", "Tran Thi B", 9.0));
-        students.add(new Student("S003", "Le Van C", 7.2));
-        students.add(new Student("S004", "Pham Thi D", 9.5));
-
+        students.add(new Student("1", "Nguyen Minh Chinh", 8.5));
+        students.add(new Student("2", "Ho Du Tuan Dat", 9.0));
+        students.add(new Student("3", "Nguyen Thi Phuong Nhung", 7.2));
+        
         // 2. Display student list
-        System.out.println("=== Student List ===");
+        System.out.println(" Student List ");
         for (Student s : students) {
             s.display();
         }
