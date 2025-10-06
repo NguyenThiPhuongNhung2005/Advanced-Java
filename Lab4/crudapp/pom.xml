@@ -23,7 +23,7 @@
     </properties>
 
     <dependencies>
-        <!-- Web + Thymeleaf + JPA -->
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -39,21 +39,20 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
-        <!-- Database H2 (test nội bộ, không cần MySQL) -->
+       
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
 
-        <!-- Fix lỗi PredictionMode -->
+   
         <dependency>
             <groupId>org.antlr</groupId>
             <artifactId>antlr4-runtime</artifactId>
             <version>4.13.1</version>
         </dependency>
 
-        <!-- Lombok (tùy chọn, có thể bỏ nếu không dùng) -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
